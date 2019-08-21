@@ -66,3 +66,11 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# vulnerability updates
+gem 'railties',                '>= 5.2.2.1'
+gem 'actionview',              '>= 5.2.2.1'
+gem 'nokogiri',                '>= 1.10.4'
+gem 'rack',                    '>= 2.0.6'
+gem 'loofah',                  '>= 2.2.3'
+gem 'rubyzip',                 '>= 1.2.2'
