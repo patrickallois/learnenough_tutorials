@@ -1,0 +1,19 @@
+// testing interation forEach
+
+// let a = ["ant", "bat", "cat", 42];
+// a.forEach((element) => {
+//   console.log(element);
+// });
+//
+// let soliloquy = "To be, or not to be, that is the question:";
+// Array.from(soliloquy).forEach(function(character) {
+//   console.log(character);
+// });
+
+let a = [32, 17, 12, 16];
+  taco = a.sort(function(a, b) { return a - b; });
+  //console.log(taco);
+
+  taco.forEach(function(character) {
+  console.log(character);
+});
